@@ -3,11 +3,10 @@
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-COMPLETADO-green">
    </p>
-   ##Índice
+<ul>Índice</ul>
+<li>[Título e imagen de portada](#Título-e-imagen-de-portada)</li>
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
-
-*[Insignias](#insignias)
+[Insignias](#insignias)
 
 *[Índice](#índice)
 
