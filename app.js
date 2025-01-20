@@ -10,13 +10,36 @@ function agregarAmigo() {
     if (amigo == "") {
         alert("Por favor, inserte un nombre.");
     } else {
-        amigos.push(amigo);
-        limpiarEntrada();
+        if (amigos.includes(amigo)){
+            alert(`El nombre ${amigo} ya existe en tu lista.`);
+            limpiarEntrada();
+        } else {
+            amigos.push(amigo);
+            actualizarListaAmigos();
+            limpiarEntrada();
+        }
     }
-    console.log(amigos);
 }
 
 function limpiarEntrada() {
     let cajaAmigo = document.getElementById("amigo");
     cajaAmigo.value = "";
+}
+
+function actualizarListaAmigos() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+    
+    for (let i = 0; i < amigos.length; i++) {
+        let elemento = crearElemento();
+        elemento.innerHTML = amigos[i];
+        lista.appendChild(elemento);
+    }
+    return lista;
+}
+
+function crearElemento() {
+    // crear elemento de la lista
+    let elemento = document.createElement("li");
+    return elemento;
 }
