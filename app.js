@@ -70,16 +70,19 @@ function limpiarLista() {
 }
 
 function generarIndice () {
+    // Generar indice aleatorio
     let indice = Math.floor(Math.random() * amigos.length);
+    // Si la lista de indices es igual al tamaño de la lista de amigos
     if (listaIndice.length == amigos.length) {
         asignarTextoElemento("resultado", "Ya se han sorteado todos los amigos");
         return -1;
     }
+    //Si la lista de indices incluye el nombre sorteado generar uno nuevo
     if (listaIndice.includes(indice)) {
         return generarIndice();
+    // De lo contrario añadirlo a la lista de indices y retornar el indice
     } else {
         listaIndice.push(indice);
-        console.log(listaIndice);
         return indice;
     }
 }
