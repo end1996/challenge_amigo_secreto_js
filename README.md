@@ -1,28 +1,102 @@
-<h1 align="center"> Challenge Amigo Secreto </h1>
-![PORTADA](https://github.com/user-attachments/assets/34f98d15-07e3-4453-9f41-e77476aa007e)
-<p align="left">
-   <img src="https://img.shields.io/badge/STATUS-COMPLETADO-green">
-   </p>
-## Índice</ul>
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
-[Insignias](#insignias)
 
-*[Índice](#índice)
+![GPLv3 License](https://img.shields.io/badge/STATUS-COMPLETADO-green)
 
-*[Descripción del proyecto](#descripción-del-proyecto)
 
-*[Estado del proyecto](#Estado-del-proyecto)
+# *Challenge Amigo Secreto*
 
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+## Descripción del proyecto
+- Se trata de una aplicación web destinada al sorteo de amigos, con una interfaz sencilla y agradable al usar, ingresando un número determinado de personas que serán mostradas aleotoriamente hasta agotar el listado ingresado.
 
-*[Acceso al proyecto](#acceso-proyecto)
 
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
 
-*[Personas Contribuyentes](#personas-contribuyentes)
 
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+## Características
 
-* [Licencia](#licencia)
+- Interfaz sencilla
+- Manejo de estado
+- Uso de tecnologías estandar a nivel web
 
-*[Conclusión](#conclusión)
+
+
+## Demo
+
+![GIF](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/GIF.gif)
+## Screenshots
+
+![PORTADA](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/PORTADA.png)
+![ALERTA](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/alerta.png)
+![NOMBRE](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nombre.png)
+![NUEVO](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nuevo.png)
+
+## Acceso al proyecto
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Authors
+
+- [@end1996](https://www.github.com/end1996) - Enmanuel Nava
+
+
+## 🚀 Acerca de mí
+Estudiante de 4to ciclo de **Ingeniería de Software con Inteligencia Artificial**, en constante aprendizaje en busca de nuevas oportunidades.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://end1996.github.io/portfolio/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enmanuel-nava-dev/)
+
+
+
+## 🛠 Skills
+- Javascript
+- HTML
+- CSS
+- Flutter
+- Bootstrap
+- Wordpress
+- Oracle SQL / MySQL
+- Java
+- C
+- PHP
+- Python
+- Git / Github
+
+
+## Recursos
+
+ - [Readme.so](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Cómo escribir un readme increible en tu github](https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github)
+
