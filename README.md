@@ -20,7 +20,7 @@
   style="width: 300px; height: auto; object-fit: cover; border-radius: 8px;"> 
 </div>
 
-## Screenshot
+## Screenshots
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; justify-items: center;">
   <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/PORTADA.png" alt="Portada" 
