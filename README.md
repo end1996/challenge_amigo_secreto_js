@@ -15,14 +15,22 @@
 
 ## Demo
 
+<div style="display: flex; justify-content: center; padding: 10px;">
+  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/GIF.gif" alt="Demo" 
+  style="width: 300px; height: auto; object-fit: cover; border-radius: 8px;"> 
+</div>
 ![GIF](https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/GIF.gif)
 ## Screenshots
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; justify-items: center;">
-  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/PORTADA.png" alt="Portada" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
-  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/alerta.png" alt="Alerta" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
-  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nombre.png" alt="Nombre" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
-  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nuevo.png" alt="Nuevo" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/PORTADA.png" alt="Portada" 
+  style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/alerta.png" alt="Alerta" 
+  style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nombre.png" alt="Nombre" 
+  style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
+  <img src="https://github.com/end1996/challenge_amigo_secreto_js/blob/master/assets/nuevo.png" alt="Nuevo" 
+  style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;">
 </div>
 
 ## Acceso al proyecto
