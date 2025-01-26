@@ -76,6 +76,8 @@ function generarIndice() {
     if (listaIndice.length == amigos.length) {
         //document.querySelector(".button-draw").setAttribute("disabled", "Prueba");
         document.getElementById("amigo").setAttribute("disabled", "");
+        document.querySelector(".button-draw").setAttribute("disabled", "");
+        document.querySelector(".button-draw").setAttribute("style", "color: #666;  background-color: #ccc; cursor: not-allowed;");
         asignarTextoElemento("#resultado", "Ya se han sorteado todos los amigos");
         document.getElementById("botonReiniciar").style.display = "flex";
         return -1;
@@ -105,6 +107,8 @@ function reiniciarSorteo() {
 
     // Volver a mostrar el campo para añadir amigos
     document.getElementById("amigo").removeAttribute("disabled");
+    document.querySelector(".button-draw").removeAttribute("disabled");
+    document.querySelector(".button-draw").removeAttribute("style");
 
     // Ocultar el botón de reinicio
     document.getElementById("botonReiniciar").style.display = "none";
